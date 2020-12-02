@@ -13,7 +13,7 @@ export default function MediaCard({text, value, color}) {
            {text}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-           <NumberCounter start={1} delay={0} duration={5}  end={value}/>
+          <h2><NumberCounter start={1000} delay={3} end={value}/></h2>
           </Typography>
         </CardContent>
       </CardActionArea>
